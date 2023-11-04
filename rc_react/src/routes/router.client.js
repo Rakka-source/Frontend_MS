@@ -1,12 +1,12 @@
 import {ClientLayout} from "../layouts"
-import {LoginClient} from "../pages/Client"
+import {HomeClient} from "../pages/Client"
 
 
 const routerClient = [
     {
         path:"/user",
         layout:ClientLayout,
-        component:LoginClient,
+        component:HomeClient,
         exact: true,
     }
 ]

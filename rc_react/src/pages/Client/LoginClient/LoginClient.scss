@@ -1,0 +1,33 @@
+.login-user{
+    height: 100vh ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background: linear-gradient(63deg, #94665a 23%, transparent 23%) 7px 0,
+    // linear-gradient(63deg, transparent 74%, #94665a 78%),
+    // linear-gradient(63deg, transparent 34%, #94665a 38%, #94665a 58%, transparent 62%),
+    // #3b1a04;
+    // background-size: 16px 48px;
+    background-color: #2b1404;
+    background-image: linear-gradient(315deg,#2b1404 0%, #aa6140 90%);
+
+    &__content {
+        background-color: #fff;
+        background-image:
+        linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+        linear-gradient(#eee .1em, transparent .1em);
+        background-size: 100% 1.2em;
+        padding: 50px 50px;
+        border-radius: 20px;
+        width: 500px;
+        box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.3);
+        -webkit-box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.3);
+        -moz-box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.3);
+        >h1{
+            font-size: 35px;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+    }
+}
